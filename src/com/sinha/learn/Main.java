@@ -14,7 +14,7 @@ public class Main {
 
     public static void main(String[] args) {
         try {
-            URL url = new URL("http://example.org");
+            URL url = new URL("https://api.flickr.com/services/feeds/photos_public.gne?tags=cats");
             //below line only creates a connection but does not actually connect. So it just a place where you can
             //config your connection.
             //URLConnection urlConnection = url.openConnection();
